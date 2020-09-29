@@ -92,6 +92,10 @@ export const TOKEN_MINTS: Array<{ address: PublicKey; name: string }> = [
     address: new PublicKey('6WNVCuxCGJzNjmMZoKyhZJwvJ5tYpsLyAtagzYASqBoF'),
     name: 'AKRO',
   },
+  {
+    address: new PublicKey('DJafV9qemGp7mLMEn5wrfqaFwxsbLgUsGVS16zKRk9kc'),
+    name: 'HXRO',
+  },
   { address: WRAPPED_SOL_MINT, name: 'SOL' },
 ];
 
@@ -494,6 +498,18 @@ export const MARKETS: Array<{
   {
     name: 'AKRO/USDT',
     address: new PublicKey('FQbCNSVH3RgosCPB4CJRstkLh5hXkvuXzAjQzT11oMYo'),
+    programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
+    deprecated: false,
+  },
+  {
+    name: 'HXRO/USDT',
+    address: new PublicKey('74HTY9MSo9pd3EfTQDVzcWtHxgGUYEJXWMH4NqgAnbaz'),
+    programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
+    deprecated: false,
+  },
+  {
+    name: 'HXRO/USDC',
+    address: new PublicKey('WJsBeaWmFEfWyY6UZCZN6LP3Hq8hQG7hYkGDmh213UY'),
     programId: new PublicKey('EUqojwWA2rd19FZrzeBncJsm38Jm1hEhE3zsmX3bRc2o'),
     deprecated: false,
   },
